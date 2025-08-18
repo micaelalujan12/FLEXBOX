@@ -12,13 +12,15 @@ h1{
     color:aliceblue ;
     font-size: 35px;
     text-align: center;
-    margin: 15px;
+    margin: 2px;
 }
 .padre{
     display:flex;
     /* flex-direction: column; en columna */
     /* flex-direction: row-reverse; invierte el orden*/
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .padreDos{
     display:flex;
@@ -26,5 +28,6 @@ h1{
     flex-wrap: wrap;
 }
 p{
-    width: 87px;
+    width: 88px;
+    justify-content: space-around;
 }
