@@ -3,22 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>REPASO BOOTSTRAP</title> 
+    <!-- 1. Copiamos el link de Bootstrap o CDN -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 
-    <!-- 1. Traemos el CDN de Bootstrap y su CSS-->
-     <!-- Lo traemos desde la página oficial -->
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-
-</head>
+    <title>Productos</title>
 </head>
 <body>
-
-    <!-- 2. Usamos un componente de Bootstrap -->
- <!-- Una barra de navegación -->
-
+    
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
+        <div class="container-fluid">
     <a class="navbar-brand" href="./index.html">Sistemas</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -39,12 +32,25 @@
         </li>
       </ul>
     </div>
-  </div>
-</nav>
-    <h1 class="text-center mt-5 text-success">
-        Repaso de Bootstrap
-    </h1>
-    
+    </nav>
+
+    <main>
+        <h1 class="text-center mt-5 text-warning">
+            Página de productos para la venta
+        </h1>
+        <div class="text-center mt-4">
+            <div class="d-flex flex-column align-items-center">
+            <img src="./mapa planisferio.jpg" alt="producto" width="550px">
+            <button type="button" class="btn btn-info w-25 text-white mt-4" onclick="alert(`Gracias por su compra`)">
+                Pagar
+            </button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
 
 </body>
 </html>
